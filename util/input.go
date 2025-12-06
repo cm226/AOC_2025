@@ -32,3 +32,18 @@ func ReadCSV(parser LineParser, filename string) {
 		parser(element)
 	}
 }
+
+func ReadMatrix(filename string) [][]rune {
+	inputFile, error := os.Open(filename)
+	if error != nil {
+		panic(error)
+	}
+
+	scanner := bufio.NewScanner(inputFile)
+	matrix := [][]rune{}
+	for scanner.Scan() {
+		line := scanner.Text()
+		matrix = append(matrix, []rune(line))
+	}
+	return matrix
+}

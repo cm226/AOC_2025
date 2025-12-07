@@ -1,0 +1,4 @@
+github.com/s0rg/vec2d v1.2.1 h1:3uJUPDnYeTVjj0Qxkl2SA0i3ofadA3grX87VgvIEy7c=
+github.com/s0rg/vec2d v1.2.1/go.mod h1:p+mqSEM4/8pjz1tRIJSfoOF8fMY5QYPVRod5iIR6mHc=
+golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 h1:R84qjqJb5nVJMxqWYb3np9L5ZsaDtB+a39EqjV0JSUM=
+golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0/go.mod h1:S9Xr4PYopiDyqSyp5NjCrhFrqg6A5zA2E/iPHPhqnS8=
